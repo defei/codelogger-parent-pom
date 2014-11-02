@@ -17,7 +17,7 @@
 		<codelogger-utils.version>1.0-SNAPSHOT</codelogger-utils.version>
 		<codelogger-core.version>1.0-SNAPSHOT</codelogger-core.version>
 		<codelogger-web.version>1.0-SNAPSHOT</codelogger-web.version>
-		<ftng-security-external.version>1.0-SNAPSHOT</ftng-security-external.version>
+		<security-external.version>1.0-SNAPSHOT</security-external.version>
 		<guava.version>15.0</guava.version>
 		<gson.version>2.2.4</gson.version>
 		<httpclient.version>4.3.1</httpclient.version>
@@ -128,8 +128,8 @@
 			</dependency>
 			<dependency>
 				<groupId>org.codelogger</groupId>
-				<artifactId>codelogger-security-external</artifactId>
-				<version>${codelogger-security-external.version}</version>
+				<artifactId>security-external</artifactId>
+				<version>${security-external.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.google.guava</groupId>
