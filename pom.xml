@@ -14,9 +14,9 @@
 		<dbunit.version>2.4.9</dbunit.version>
 
 		<!-- utils -->
-		<ftng-utils.version>1.0-SNAPSHOT</ftng-utils.version>
-		<ftng-core.version>1.0-SNAPSHOT</ftng-core.version>
-		<ftng-web-core.version>1.0-SNAPSHOT</ftng-web-core.version>
+		<codelogger-utils.version>1.0-SNAPSHOT</codelogger-utils.version>
+		<codelogger-core.version>1.0-SNAPSHOT</codelogger-core.version>
+		<codelogger-web.version>1.0-SNAPSHOT</codelogger-web.version>
 		<ftng-security-external.version>1.0-SNAPSHOT</ftng-security-external.version>
 		<guava.version>15.0</guava.version>
 		<gson.version>2.2.4</gson.version>
@@ -77,8 +77,8 @@
 
 		<!-- utils -->
 		<dependency>
-			<groupId>net.ftng.common.lang.utils</groupId>
-			<artifactId>ftng-utils</artifactId>
+			<groupId>org.codelogger</groupId>
+			<artifactId>utils</artifactId>
 		</dependency>
 	</dependencies>
 
@@ -112,24 +112,24 @@
 
 			<!-- utils -->
 			<dependency>
-				<groupId>net.ftng.common.lang.utils</groupId>
-				<artifactId>ftng-utils</artifactId>
-				<version>${ftng-utils.version}</version>
+				<groupId>org.codelogger</groupId>
+				<artifactId>utils</artifactId>
+				<version>${codelogger-utils.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>net.ftng</groupId>
-				<artifactId>ftng-core</artifactId>
-				<version>${ftng-core.version}</version>
+				<groupId>org.codelogger</groupId>
+				<artifactId>core</artifactId>
+				<version>${codelogger-core.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>net.ftng</groupId>
-				<artifactId>ftng-web-core</artifactId>
-				<version>${ftng-web-core.version}</version>
+				<groupId>org.codelogger</groupId>
+				<artifactId>web</artifactId>
+				<version>${codelogger-web.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>net.ftng</groupId>
-				<artifactId>ftng-security-external</artifactId>
-				<version>${ftng-security-external.version}</version>
+				<groupId>org.codelogger</groupId>
+				<artifactId>codelogger-security-external</artifactId>
+				<version>${codelogger-security-external.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.google.guava</groupId>
